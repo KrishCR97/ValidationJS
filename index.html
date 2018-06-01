@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-    <title>Page Title</title>    
+        <link rel="stylesheet" type="text/css" href="validate.css">
+    <title>Page Title</title>
 </head>
+
 <body>
-    FirstName : <input type = "text" placeholder="FirstName" name = "fName" id = "fn"><br/>
-    LastName :  <input type = "text" placeholder="LastName" name = "lName" id = "ln"><br/>
-    emailId : <input type="text" placeholder="emailId" name="email" id = "email"><br/>
-    phoneNumber : <input type = "text" placeholder="phoneNumber" name="pNumber" id = "pNum"><br/>
+<div id="forumElements">    
+    FirstName :
+    <input type="text" placeholder="FirstName" name="fName" id="firstName">
+    <br/> LastName :
+    <input type="text" placeholder="LastName" name="lName" id="lastName">
+    <br/> emailId :
+    <input type="text" placeholder="emailId" name="email" id="emailID">
+    <br/> phoneNumber :
+    <input type="number" placeholder="phoneNumber" name="pNumber" id="phoneNumber">
+    <br/> Enter your sex :
+    <input type="radio" id="rbtn1" name="gender" value="male"> Male
+    <input type="radio" id="rbtn2" name="gender" value="female">Female
+    <br>
     <button type="button" id="button">Save</button>
+    </div>
     <script src="validate.js"></script>
 </body>
+
 </html>
